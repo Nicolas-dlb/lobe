@@ -1,5 +1,5 @@
 import { Model } from "@/app/utils/Types/Types";
-import React from "react";
+import React, { LegacyRef, useRef } from "react";
 import Availability from "./Availability/Availability";
 import Image from "next/image";
 
@@ -18,12 +18,13 @@ function ModelCard({
 	altText,
 	index,
 }: ModelCardProps) {
+	const newVideoRef = useRef<HTMLVideoElement>(null);
 	return (
 		<div className="flex flex-col mb-16 flex-1 m-4 items-center text-center box-border shadow-[0_80px_120px_-40px_rgba(0,0,0,.1)] bg-white rounded-[20px] xl:rounded-[28px] p-6 xl:p-8 min-h-[224px] min-w-[262px] 900:min-w-0 max-w-[332px]">
 			<div className="mb-4 relative 900:mb-6 w-[110px] 900:w-[130px] 900:h-[86px] xl:w-[160px] xl:h-[106px] h-[70px]">
 				<video
 					data-index={index}
-					ref={videoRef}
+					ref={newVideoRef}
 					src={video}
 					title={altText}
 					playsInline
