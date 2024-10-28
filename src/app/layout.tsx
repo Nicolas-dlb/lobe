@@ -4,6 +4,7 @@ import "./style/globals.css";
 import Footer from "./components/Footer/Footer";
 import ConfettiProvider from "./Providers/ConfettiProvider";
 import WatchTourProvider from "./Providers/WatchTourProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
 	title: "Lobe",
@@ -22,6 +23,7 @@ export default function RootLayout({
 					<WatchTourProvider>
 						<Header />
 						{children}
+						<Analytics />
 						<CallToAction />
 						<Footer />
 					</WatchTourProvider>
