@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Docs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Docs-Next-Article:-Next" transform="translate(-1158.000000, -831.000000)" stroke="#333333" stroke-width="1.25">
+            <g id="Documentation" transform="translate(450.000000, 155.000000)">
+                <g id="Article">
+                    <g id="Next" transform="translate(380.000000, 608.000000)">
+                        <g transform="translate(171.000000, 30.000000)" id="Group">
+                            <g>
+                                <g id="arrow-right" transform="translate(158.000000, 39.000000)">
+                                    <polyline id="Path" points="6.11111111 10 11 5 6.11111111 0"></polyline>
+                                    <line x1="11" y1="5" x2="0" y2="5" id="Path"></line>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

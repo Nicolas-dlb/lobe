@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./font.css";
+@import "./animations.css";
+
+@layer utilities {
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.no-scrollbar {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+}
+
+body {
+	color: var(--text-color);
+	font-family: "Labgrotesque";
+	text-rendering: optimizeLegibility;
+}
+
+html {
+	scroll-padding-top: 80px;
+	/* scroll-behavior: smooth;
+	--scroll-behavior: smooth !important;
+	scroll-behavior: smooth !important; */
+}
+
+.bg-linkedin {
+	background: #103090;
+}
+.bg-twitter {
+	background: #06c1ff;
+}
+.bg-facebook {
+	background: #265cff;
+}
+ul li {
+	background-image: url("/assets/img/checklist.svg");
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 30px;
+	background-position: 0 2.5px;
+}
+::selection {
+	background: rgba(0, 230, 184, 0.2);
+}

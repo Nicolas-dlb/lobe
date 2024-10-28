@@ -1,0 +1,39 @@
+/* Slide */
+@keyframes slide {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(300px * 8));
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	@keyframes slide {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(452px * 8));
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	@keyframes slide {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(540px * 8));
+		}
+	}
+}
+
+.slide-track {
+	animation: slide 95s linear infinite;
+}
+
+.slide-track-inverse {
+	animation-direction: reverse;
+}
