@@ -1,26 +1,25 @@
 export const navigationLinks = [
 	{
 		name: "Overview",
-		path: "/"
-	}, 
+		path: "/",
+	},
 	{
 		name: "Examples",
-		path: "/examples"
-	}, 
+		path: "/examples",
+	},
 	{
 		name: "Tour",
-		path: "/tour"
-	}, 
+		path: "/tour",
+	},
 	{
 		name: "Blog",
-		path: "/blog"
-	}, 
+		path: "/blog",
+	},
 	{
 		name: "Help",
-		path: "/docs/welcome"
-	}, 
-]
-
+		path: "/docs/welcome",
+	},
+];
 
 export const features = [
 	{
@@ -55,7 +54,6 @@ export const features = [
 	},
 ];
 
-
 export const models = [
 	{
 		id: "model-1",
@@ -89,7 +87,6 @@ export const models = [
 	},
 ];
 
-
 export const footerCategories = [
 	{
 		name: "About",
@@ -120,31 +117,26 @@ export const footerCategories = [
 	},
 ];
 
-
 export const socialMedia = [
 	{
 		id: "media-1",
 		link: "https://reddit.com/r/lobe",
 		img: "/assets/img/media/reddit.svg",
 		altText: "Visit the Lobe Reddit community",
-		
 	},
 	{
 		id: "media-2",
 		link: "https://twitter.com/lobe_ai",
 		img: "/assets/img/media/twitter.svg",
 		altText: "Visit the Lobe Twitter profile",
-		
 	},
 	{
 		id: "media-3",
 		link: "https://www.youtube.com/channel/UCYryctkBIcCszPAFg79rwAw",
 		img: "/assets/img/media/youtube.svg",
 		altText: "Visit the Lobe Youtube channel",
-
 	},
 ];
-
 
 export const examples = [
 	{
@@ -567,7 +559,7 @@ export const brands = [
 
 export const blogPosts = [
 	{
-		img: "/assets/blog/lobe-and-power-platform.png",
+		img: "/assets/blog/use-your-model-in-power-platform/lobe-and-power-platform.png",
 		title: "Use your model in Power Platform",
 		description:
 			"We're excited to announce a new integration with Microsoft Power Platform.",
@@ -575,7 +567,7 @@ export const blogPosts = [
 		type: "Release",
 	},
 	{
-		img: "/assets/blog/March Release Cards 4.jpg",
+		img: "/assets/blog/introducing-new-ways-to-use-your-model/March Release Cards 4.jpg",
 		title: "Introducing new ways to use your model",
 		description:
 			"Lobe 0.9 introduces new ways of using and exporting your model to your app.",
@@ -583,7 +575,7 @@ export const blogPosts = [
 		type: "Release",
 	},
 	{
-		img: "/assets/blog/March Release Bison.jpg",
+		img: "/assets/blog/exporting-your-model-101/March Release Bison.jpg",
 		title: "Using your model 101",
 		description:
 			"Learn everything you need to know to export your model and use it in your app.",
@@ -591,7 +583,7 @@ export const blogPosts = [
 		type: "Product",
 	},
 	{
-		img: "/assets/blog/Adafruit Lobe Hero.jpg",
+		img: "/assets/blog/machine-learning-kit-with-adafruit/Adafruit Lobe Hero.jpg",
 		title: "Machine Learning Kit with Adafruit",
 		description:
 			"Introducing a brand new machine learning kit from Adafruit and Lobe.",
@@ -599,7 +591,7 @@ export const blogPosts = [
 		type: "Product",
 	},
 	{
-		img: "/assets/blog/Release 2.jpg",
+		img: "/assets/blog/four-new-features-in-lobe/Release 2.jpg",
 		title: "Four New Features in Lobe",
 		description:
 			"Select your camera source, export your model to new formats, and more in the new Lobe.",
@@ -607,7 +599,7 @@ export const blogPosts = [
 		type: "Release",
 	},
 	{
-		img: "/assets/blog/4.jpg",
+		img: "/assets/blog/endless-camera-sources/4.jpg",
 		title: "Endless Camera Sources",
 		description:
 			"Deep dive into the new camera sources and all the possibilities they open up inside of Lobe.",
@@ -615,7 +607,7 @@ export const blogPosts = [
 		type: "Product",
 	},
 	{
-		img: "/assets/blog/Plants Overlay.jpg",
+		img: "/assets/blog/introducing-the-new-lobe/Plants Overlay.jpg",
 		title: "Machine Learning Made Easy",
 		description:
 			"Everything you need to train custom machine learning models in a free, easy to use app.",

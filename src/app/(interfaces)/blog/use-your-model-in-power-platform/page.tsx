@@ -8,7 +8,7 @@ function page() {
 		<Article
 			title={{ grey: "Use your model in", green: "Power Platform" }}
 			date="15 novembre 2020"
-			picture="/assets/blog/lobe-and-power-platform.png"
+			picture="/assets/blog/use-your-model-in-power-platform/lobe-and-power-platform.png"
 		>
 			<div className="[&>p]:mb-6 [&>h2]:mt-9 [&>h2]:sm:mt-14 [&>h2]:mb-3 [&>h2]:font-bold [&>h2]:text-[24px] [&>h2]:sm:text-[32px] [&>p>a]:underline [&>.inline-image-container>img]:w-full [&>.inline-image-container>img]:rounded-lg [&>.inline-image-container>img]:sm:rounded-2xl [&>.inline-image-container>.inline-image-caption]:font-medium [&>.inline-image-container>.inline-image-caption]:text-[#737373] [&>.inline-image-container>.inline-image-caption]:mt-4 [&>.inline-image-container>.inline-image-caption]:text-base ">
 				<p>
