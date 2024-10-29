@@ -26,9 +26,10 @@ body {
 
 html {
 	scroll-padding-top: 80px;
-	/* scroll-behavior: smooth;
-	--scroll-behavior: smooth !important;
-	scroll-behavior: smooth !important; */
+}
+
+html:has(a[href="#made-simple"]) {
+	scroll-behavior: smooth;
 }
 
 .bg-linkedin {
@@ -40,6 +41,7 @@ html {
 .bg-facebook {
 	background: #265cff;
 }
+
 ul li {
 	background-image: url("/assets/img/checklist.svg");
 	background-repeat: no-repeat;
