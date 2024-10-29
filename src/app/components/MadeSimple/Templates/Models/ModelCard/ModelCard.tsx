@@ -4,7 +4,7 @@ import Availability from "./Availability/Availability";
 import Image from "next/image";
 
 interface ModelCardProps extends Model {
-	videoRef: LegacyRef<HTMLVideoElement>;
+	videoRef: any;
 	index: number;
 }
 
