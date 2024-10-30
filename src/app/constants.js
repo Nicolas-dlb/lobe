@@ -571,7 +571,7 @@ export const blogPosts = [
 		title: "Introducing new ways to use your model",
 		description:
 			"Lobe 0.9 introduces new ways of using and exporting your model to your app.",
-		date: "23 March 2021",
+		date: "Coming soon",
 		type: "Release",
 	},
 	{
@@ -579,7 +579,7 @@ export const blogPosts = [
 		title: "Using your model 101",
 		description:
 			"Learn everything you need to know to export your model and use it in your app.",
-		date: "23 March 2021",
+		date: "Coming soon",
 		type: "Product",
 	},
 	{
@@ -587,7 +587,7 @@ export const blogPosts = [
 		title: "Machine Learning Kit with Adafruit",
 		description:
 			"Introducing a brand new machine learning kit from Adafruit and Lobe.",
-		date: "31 March 2021",
+		date: "Coming soon",
 		type: "Product",
 	},
 	{
@@ -595,7 +595,7 @@ export const blogPosts = [
 		title: "Four New Features in Lobe",
 		description:
 			"Select your camera source, export your model to new formats, and more in the new Lobe.",
-		date: "10 December 2020",
+		date: "Coming soon",
 		type: "Release",
 	},
 	{
@@ -603,7 +603,7 @@ export const blogPosts = [
 		title: "Endless Camera Sources",
 		description:
 			"Deep dive into the new camera sources and all the possibilities they open up inside of Lobe.",
-		date: "10 December 2020",
+		date: "Coming soon",
 		type: "Product",
 	},
 	{
@@ -611,7 +611,7 @@ export const blogPosts = [
 		title: "Machine Learning Made Easy",
 		description:
 			"Everything you need to train custom machine learning models in a free, easy to use app.",
-		date: "26 October 2020",
+		date: "Coming soon",
 		type: "Release",
 	},
 ];
