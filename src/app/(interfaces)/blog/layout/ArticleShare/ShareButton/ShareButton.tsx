@@ -27,7 +27,7 @@ async function ShareButton({ network, slug }: ShareButtonProps) {
 					className={`bg-${network.toLowerCase()} w-[48px] hover:scale-110 transition-all duration-[400ms] h-[48px] rounded-full flex items-center justify-center`}
 				>
 					<Image
-						src={`/assets/img/media/${network}.svg`}
+						src={`/assets/img/media/${network.toLowerCase()}.svg`}
 						alt=""
 						width="32"
 						height="32"
