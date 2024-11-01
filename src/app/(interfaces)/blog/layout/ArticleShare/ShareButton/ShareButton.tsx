@@ -10,7 +10,6 @@ interface ShareButtonProps {
 async function ShareButton({ network, slug }: ShareButtonProps) {
 	const get = async () => {
 		return await import(`react-share`).then((module) => {
-			console.log(module[`FacebookShareButton`]);
 			return module[`${network}ShareButton`];
 		});
 	};
