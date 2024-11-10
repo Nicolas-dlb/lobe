@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- ABOUT THE PROJECT -->
+
+## Lobe
+
+<a href="https://lobe-ia.vercel.app" markdown="1">
+<img src="./public/assets/preview.png" alt=“preview” width="600px" >
+</a>
+
+Web application for machine learning.
+
+https://lobe-ia.vercel.app
+
+### Built With
+
+- Next
+- Typescript
+- Tailwind
+- Jest
+
+<!-- GETTING STARTED -->
 
 ## Getting Started
 
-First, run the development server:
+To run the project follow these simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Installation
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/Nicolas-dlb/lobe
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. install dependances
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. run the project
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+<!-- CONTACT -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Nicolas Dubois - [@Linkedin](https://www.linkedin.com/in/nicolasdlb) - nicolas_db@outlook.fr
 
-## Deploy on Vercel
+Project Link: [https://github.com/Nicolas-dlb/lobe](https://github.com/Nicolas-dlb/lobe)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[linkedin-url]: https://www.linkedin.com/in/nicolasdlb
+[preview]: ./public/assets/preview.png
