@@ -1,4 +1,3 @@
-"use client";
 import { brands } from "@/app/constants";
 import { useWidth } from "@/app/utils/hooks/useWidth";
 import { useSpring, animated } from "@react-spring/web";
@@ -6,18 +5,24 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 function Ship() {
-	const [selectedBrand, setSelectedBrand] = useState("");
+	const [selectedBrand, setSelectedBrand] = useState<string | null>(null);
 	const [brandAnimate, setBrandAnimate] = useState(false);
 	const width = useWidth();
 
 	const fadeAnimation = useSpring({
 		opacity: brandAnimate ? 0 : 1,
-		reset: brandAnimate,
-		reverse: selectedBrand !== "",
 	});
 
+	const titleAnimation = (brand: string | null) => {
+		setBrandAnimate(true);
+		setTimeout(() => {
+			setSelectedBrand(brand);
+			setBrandAnimate(false);
+		}, 250);
+	};
+
 	return (
-		<div className="bg-greyBG w-screen overflow-hidden flex flex-col items-center justify-center">
+		<div className="bg-greyBG w-screen overflow-x-clip flex flex-col items-center justify-center">
 			<div className="px-8 sm:px-16 pt-14 max-w-[1088px] w-full">
 				<h2 className="text-grey font-black text-[38px] sm:text-[56px] xl:text-[64px] mb-2">
 					<span className="text-green">Export</span>{" "}
@@ -46,15 +51,8 @@ function Ship() {
 					.map((brand) => (
 						<figure
 							key={brand.name}
-							onMouseOver={() => {
-								setBrandAnimate(true);
-								setTimeout(() => setSelectedBrand(brand.export), 200);
-							}}
-							onMouseLeave={() => {
-								setTimeout(() => setSelectedBrand(""), 700);
-
-								setBrandAnimate(false);
-							}}
+							onMouseEnter={() => titleAnimation(brand.export)}
+							onMouseLeave={() => titleAnimation(null)}
 							style={{
 								backgroundColor: brand.backgroundColor,
 								left: brand.position?.[width < 640 ? "mobile" : "desktop"]
