@@ -24,12 +24,16 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-html {
+html:has(a[href="#made-simple"]) {
+	scroll-behavior: smooth;
+}
+
+html:not(:has(a[href="/examples"].text-grey)) {
 	scroll-padding-top: 80px;
 }
 
-html:has(a[href="#made-simple"]) {
-	scroll-behavior: smooth;
+html:has(a[href="/examples"].text-grey) {
+	scroll-padding-top: 120px;
 }
 
 .bg-linkedin {
