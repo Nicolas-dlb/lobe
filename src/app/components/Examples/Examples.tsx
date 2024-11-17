@@ -5,7 +5,7 @@ import Slider from "./Slider/Slider";
 function Examples() {
 	return (
 		<div className="bg-greyBG w-screen pb-14 sm:pb-20 -mt-16 xl:pb-[100px] overflow-x-hidden overflow-y-visible items-end flex justify-center flex-col">
-			<div className="px-8 sm:px-16 max-w-[968px] xl:max-w-[1088px] w-full mb-8 sm:mb-12 xl:mb-16 self-center">
+			<div className="px-8 z-10 sm:px-16 max-w-[968px] xl:max-w-[1088px] w-full mb-8 sm:mb-12 xl:mb-16 self-center">
 				<h2 className="text-grey text-[38px] mb-2  sm:mb-3 sm:text-[56px] xl:text-[64px] leading-[1.05] font-black">
 					Lobe <span className="text-green">Exemples</span>
 				</h2>
