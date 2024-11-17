@@ -28,7 +28,7 @@ function ScrollToMadeSimple() {
 		<animated.a
 			href="#made-simple"
 			style={{ opacity }}
-			className={`hidden 900:block absolute bottom-7 ${
+			className={`hidden 900:block rounded-md outline-offset-4 absolute bottom-7 ${
 				active ? "" : "pointer-events-none"
 			}`}
 		>

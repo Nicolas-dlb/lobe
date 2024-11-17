@@ -14,7 +14,7 @@ function ButtonDownload({ className }: ButtonDownloadProps) {
 	const { fire } = useContext(ConfettiContext);
 
 	const mergedClass = twMerge(
-		`bg-green text-white flex items-center shadow-[0_10px_20px_-8px_transparent] justify-center rounded-3xl w-full py-3 hover:scale-105 font-bold transition-all duration-[.4s] ease-in-out text-xl ${
+		`bg-green text-white flex items-center outline-offset-[1.5px] shadow-[0_10px_20px_-8px_transparent] justify-center rounded-3xl w-full py-3 hover:scale-105 font-bold transition-all duration-[.4s] ease-in-out text-xl ${
 			effect && "!scale-[0.98]"
 		}`,
 		className

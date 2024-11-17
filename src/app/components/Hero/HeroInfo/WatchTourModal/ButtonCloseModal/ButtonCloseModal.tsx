@@ -14,7 +14,7 @@ function ButtonCloseModal({ closeModal }: ButtonCloseModalProps) {
 		<button
 			onMouseDown={handleMouseDown}
 			onClick={closeModal}
-			className={`absolute right-6 top-6 hover:scale-[1.05] transition-all duration-200 ${
+			className={`absolute right-6 top-6 rounded-md outline-offset-4 hover:scale-[1.05] transition-all duration-200 ${
 				effect && "!scale-[0.95]"
 			}`}
 		>

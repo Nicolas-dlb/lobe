@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Logo() {
 	return (
-		<Link href="/">
+		<Link className="rounded-sm outline-offset-[7px]" href="/">
 			<Image
 				src="/assets/img/logo.svg"
 				alt="lobe logo"

@@ -23,7 +23,7 @@ function NavLink({ name, href, closeMenuWithoutAnimation }: NavLinkProps) {
 			}}
 			onAnimationEnd={() => setEffect(false)}
 			href={href}
-			className={`transition-all duration-300 text-xl md:text-lg hover:text-grey font-medium md:hover:scale-[1.03] ${
+			className={`transition-all rounded-md outline-offset-4 duration-300 text-xl md:text-lg hover:text-grey font-medium md:hover:scale-[1.03] ${
 				effect && "md:animate-click"
 			} ${isActive ? "text-grey" : "text-lightGrey"}`}
 		>

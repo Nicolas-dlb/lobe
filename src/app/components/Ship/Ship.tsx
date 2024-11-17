@@ -34,7 +34,7 @@ function Ship() {
 					When you are done, you can export your model to a variety of industry
 					standard formats and ship it on any platform you choose.
 				</p>
-				<button className="text-green hover:scale-105 transition-all duration-200 font-bold text-[18px] sm:text-[24px] flex items-center justify-center">
+				<button className="text-green rounded-md hover:scale-105 transition-all duration-200 font-bold text-[18px] sm:text-[24px] flex items-center justify-center">
 					Learn More{" "}
 					<Image
 						src="/assets/img/chevron.svg"
