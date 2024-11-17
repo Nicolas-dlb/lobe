@@ -8,9 +8,12 @@ function Question({
 	children: React.ReactNode;
 }) {
 	const [isOpen, setIsOpen] = useState(false);
-
+	const id = question.replaceAll(" ", "-").slice(0, -2);
 	return (
-		<div className="text-grey border-b border-gray-200 dark:border-gray-700">
+		<div
+			id={id}
+			className="text-grey border-b border-gray-200 dark:border-gray-700"
+		>
 			<h2>
 				<button
 					type="button"
