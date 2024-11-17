@@ -93,7 +93,7 @@ export const footerCategories = [
 		links: [
 			{ name: "Download", url: "/" },
 			{ name: "Overview", url: "/" },
-			{ name: "Exemples", url: "/exemples" },
+			{ name: "Examples", url: "/examples" },
 			{ name: "Blog", url: "/blog" },
 		],
 	},
