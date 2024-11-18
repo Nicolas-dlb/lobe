@@ -17,7 +17,7 @@ function Question({
 			<h2>
 				<button
 					type="button"
-					className="flex items-center rounded-md outline-offset-4 justify-between w-full py-5 font-bold text-left dark:text-gray-400"
+					className="flex items-center rounded-md outline-offset-4 justify-between w-full py-5 font-bold text-left"
 					aria-expanded={isOpen ? "true" : "false"}
 					aria-controls="accordion-flush-body-1"
 					onClick={() => setIsOpen((prev) => !prev)}
