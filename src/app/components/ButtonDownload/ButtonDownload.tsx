@@ -14,7 +14,7 @@ function ButtonDownload({ className }: ButtonDownloadProps) {
 	const { fire } = useContext(ConfettiContext);
 
 	const mergedClass = twMerge(
-		`bg-green text-white flex items-center outline-offset-[1.5px] shadow-[0_10px_20px_-8px_transparent] justify-center rounded-3xl w-full py-3 hover:scale-105 font-bold transition-all duration-[.4s] ease-in-out text-xl ${
+		`bg-green text-white cursor-pointer flex items-center outline-offset-[1.5px] shadow-[0_10px_20px_-8px_transparent] justify-center rounded-3xl w-full py-3 hover:scale-105 font-bold transition-all duration-[.4s] ease-in-out text-xl ${
 			effect && "!scale-[0.98]"
 		}`,
 		className
@@ -24,6 +24,11 @@ function ButtonDownload({ className }: ButtonDownloadProps) {
 		if (canClick) {
 			// Fire Event (Confetti)
 			fire();
+
+			const link = document.createElement("a");
+			link.href = "/lobe.txt"; // Chemin du fichier
+			link.download = "lobe.txt";
+			link.click();
 
 			// Désactiver le clic
 			setCanClick(false);
@@ -36,13 +41,13 @@ function ButtonDownload({ className }: ButtonDownloadProps) {
 	}, [canClick, fire]);
 
 	return (
-		<button
+		<a
 			onMouseDown={handleMouseDown}
 			onClick={handleClick}
 			className={mergedClass}
 		>
 			Download
-		</button>
+		</a>
 	);
 }
 
