@@ -27,7 +27,6 @@ export default function Home() {
 
 		// Add a listener to handle smooth scrolling when navigating to anchors
 		const handleHashChange = () => {
-			console.log("uhg");
 			scrollToAnchor();
 		};
 
