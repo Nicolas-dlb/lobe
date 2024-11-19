@@ -41,13 +41,13 @@ function ButtonDownload({ className }: ButtonDownloadProps) {
 	}, [canClick, fire]);
 
 	return (
-		<a
+		<button
 			onMouseDown={handleMouseDown}
 			onClick={handleClick}
 			className={mergedClass}
 		>
 			Download
-		</a>
+		</button>
 	);
 }
 
