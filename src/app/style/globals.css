@@ -32,6 +32,17 @@ html:has(a[href="/docs/label"]) {
 	scroll-padding-top: 82px !important;
 }
 
+html:has(button.react-share__ShareButton)
+	a:not([href^="mailto"]):not([href="/"]) {
+	border-radius: 4px;
+	outline-offset: 2.7px;
+}
+
+html:has(button.react-share__ShareButton)
+	a:not([href^="mailto"]):focus-visible {
+	color: #04ddb2;
+}
+
 html:not(:has(a[href="/examples"].text-grey)) {
 	scroll-padding-top: 80px;
 }

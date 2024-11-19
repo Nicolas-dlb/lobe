@@ -21,7 +21,7 @@ async function ShareButton({ network, slug }: ShareButtonProps) {
 			<NetworkShareButton
 				key={network}
 				url={`https://lobe.ai/blog/${slug}`}
-				className="Demo__some-network__share-button"
+				className="Demo__some-network__share-button !rounded-full outline-offset-2"
 			>
 				<span
 					className={`bg-${network.toLowerCase()} w-[48px] hover:scale-110 transition-all duration-[400ms] h-[48px] rounded-full flex items-center justify-center`}
